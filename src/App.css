@@ -1,0 +1,15 @@
+.App {
+  /* text-align: center; */
+font-family: 'Mukta', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+  width: 98.9vw;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
