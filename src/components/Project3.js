@@ -1,9 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import S3R from "../assets/S3R.png"
 
-
+const S3R = "https://res.cloudinary.com/pet-adoption/image/upload/v1665504825/ronitF/S3R_hgbq32.jpg"
 const S3L = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470387/ronitF/S3L_e9a551.png"
 
 
