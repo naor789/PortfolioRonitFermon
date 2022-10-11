@@ -1,7 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import H1L from "../assets/H1-L.png"
-import H1R from "../assets/H1-R.png"
+
+
+const H1L = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470403/ronitF/H1-L_j5eeb1.png"
+const H1R = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470382/ronitF/H1-R_aprmdr.png"
 
 
 const useStyles = makeStyles((theme) => ({

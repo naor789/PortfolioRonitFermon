@@ -1,7 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Pagmar1L from "../assets/Pagmar1L.png"
-import Pagmar1R from "../assets/Pagmar1R.png"
+
+
+const Pagmar1L = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470411/ronitF/Pagmar1L_rt8b4y.png"
+const Pagmar1R = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470398/ronitF/Pagmar1R_syf2o3.png"
 
 
 const useStyles = makeStyles((theme) => ({

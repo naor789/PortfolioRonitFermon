@@ -1,8 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import R1L from "../assets/R1L.png"
-import R1R from "../assets/R1R.png"
-import GIF2 from "../assets/GIF2.gif"
+
+
+const R1L = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470386/ronitF/R1L_fi03ju.png"
+const R1R = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470397/ronitF/R1R_clzxo0.png"
+const GIF2 = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470383/ronitF/GIF2_n578lw.gif"
 
 
 const useStyles = makeStyles((theme) => ({

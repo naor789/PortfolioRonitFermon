@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import moreProjects1 from "../assets/moreProjects1.jpg"
-import moreProjects2 from "../assets/moreProjects2.jpg"
-import moreProjects3 from "../assets/moreProjects3.jpg"
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
+const moreProjects1 = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470381/ronitF/moreProjects1_iutkru.jpg"
+const moreProjects2 = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470387/ronitF/moreProjects2_txbgbc.jpg"
+const moreProjects3 = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470397/ronitF/moreProjects3_ltvwbd.jpg"
 
 const useStyles = makeStyles((theme) => ({
     root: {

@@ -1,7 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import S3L from "../assets/S3L.png"
+
 import S3R from "../assets/S3R.png"
+
+
+const S3L = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470387/ronitF/S3L_e9a551.png"
 
 
 const useStyles = makeStyles((theme) => ({

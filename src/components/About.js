@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import profilePicture from "../assets/N_S-1098.jpg"
+const profilePicture = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470394/ronitF/N_S-1098_owakdw.jpg"
 
 
 const useStyles = makeStyles((theme) => ({

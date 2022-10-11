@@ -1,7 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Flip from "../assets/Flip.png"
-import Pagmar3R from "../assets/Pagmar3R.png"
+
+const Flip = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470400/ronitF/Flip_wkdfx6.png"
+const Pagmar3R = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470385/ronitF/Pagmar3R_z8ac4b.png"
 
 
 const useStyles = makeStyles((theme) => ({

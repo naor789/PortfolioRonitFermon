@@ -1,8 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import somo from "../assets/somo.jpg"
-import somo1 from "../assets/somo1.png"
-import zIndex from '@material-ui/core/styles/zIndex';
+const somo = "https://res.cloudinary.com/pet-adoption/image/upload/v1665470399/ronitF/somo_hkatnc.jpg"
 
 const useStyles = makeStyles((theme) => ({
     root: {
