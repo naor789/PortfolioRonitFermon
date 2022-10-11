@@ -65,7 +65,7 @@ function About() {
     return (
         <div className={classes.root}>
             <div className={classes.innerContainerRigth}>
-                <img src={profilePicture} alt="Project image" className={classes.image} />
+                <img src={profilePicture} alt="Profile" className={classes.image} />
 
             </div>
             <div className={classes.innerContainerLeft}>

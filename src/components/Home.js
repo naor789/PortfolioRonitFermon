@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
 
             </div>
-            <img src={somo} alt="Project image" className={classes.image} />
+            <img src={somo} alt="Project" className={classes.image} />
 
         </div>
     );

@@ -40,11 +40,11 @@ function Project1Content() {
 
             <div className={classes.root}>
                 <div className={classes.innerContainer}>
-                    <img src={Pagmar1L} alt="Project image" className={classes.image} />
+                    <img src={Pagmar1L} alt="Project" className={classes.image} />
 
                 </div>
                 <div className={classes.innerContainer}>
-                    <img src={Pagmar1R} alt="Project image" className={classes.image} />
+                    <img src={Pagmar1R} alt="Project" className={classes.image} />
 
 
                 </div>

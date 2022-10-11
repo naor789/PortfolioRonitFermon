@@ -42,12 +42,12 @@ function Project1Content2() {
         <>
 
             <div className={classes.root}>
-                <img src={appgif} alt="Project image" className={classes.image} />
+                <img src={appgif} alt="Project" className={classes.image} />
 
-                <img src={appgif2} alt="Project image" className={classes.image} />
+                <img src={appgif2} alt="Project" className={classes.image} />
 
 
-                <img src={appgif3} alt="Project image" className={classes.image} />
+                <img src={appgif3} alt="Project" className={classes.image} />
 
 
             </div>

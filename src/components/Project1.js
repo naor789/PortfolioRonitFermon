@@ -45,11 +45,11 @@ function Project1() {
         <>
             <div className={classes.root}>
                 <div className={classes.innerContainer}>
-                    <img src={Pagmar3R} alt="Project image" className={classes.image} />
+                    <img src={Pagmar3R} alt="Project" className={classes.image} />
 
                 </div>
                 <div className={classes.innerContainer}>
-                    <img src={Flip} alt="Project image" className={classes.image} />
+                    <img src={Flip} alt="Project" className={classes.image} />
 
 
                 </div>

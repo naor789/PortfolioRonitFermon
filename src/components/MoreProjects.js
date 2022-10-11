@@ -98,7 +98,7 @@ export default function MoreProjects() {
 
             </div>
             <ArrowBackIosIcon onClick={handleGoBack} fontSize={"large"} />
-            <img src={itemData[imageIndex].img} className={classes.img} />
+            <img src={itemData[imageIndex].img} className={classes.img} alt={itemData[imageIndex].title} />
             <ArrowForwardIosIcon onClick={handleGoForward} fontSize={"large"} />
         </div>
     );

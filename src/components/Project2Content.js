@@ -41,11 +41,11 @@ function Project2Content() {
 
             <div className={classes.root}>
                 <div className={classes.innerContainer}>
-                    <img src={H2R} alt="Project image" className={classes.image} />
+                    <img src={H2R} alt="Project" className={classes.image} />
 
                 </div>
                 <div className={classes.innerContainer}>
-                    <img src={H2L} alt="Project image" className={classes.image} />
+                    <img src={H2L} alt="Project" className={classes.image} />
 
 
                 </div>

@@ -45,11 +45,11 @@ function Project3() {
         <>
             <div className={classes.root}>
                 <div className={classes.innerContainer}>
-                    <img src={S3L} alt="Project image" className={classes.image} />
+                    <img src={S3L} alt="Project" className={classes.image} />
 
                 </div>
                 <div className={classes.innerContainer}>
-                    <img src={S3R} alt="Project image" className={classes.image} />
+                    <img src={S3R} alt="Project" className={classes.image} />
 
 
                 </div>

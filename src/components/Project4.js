@@ -65,13 +65,13 @@ function Project4() {
         <>
             <div className={classes.root}>
                 <div className={classes.innerContainer}>
-                    <img src={R1R} alt="Project image" className={classes.image} />
+                    <img src={R1R} alt="Project" className={classes.image} />
 
                 </div>
                 <div className={classes.innerContainerGif}>
-                    <img src={GIF2} alt="Project image" className={classes.gif} />
+                    <img src={GIF2} alt="Project" className={classes.gif} />
 
-                    <img src={R1L} alt="Project image" className={classes.image} />
+                    <img src={R1L} alt="Project" className={classes.image} />
 
                 </div>
 
