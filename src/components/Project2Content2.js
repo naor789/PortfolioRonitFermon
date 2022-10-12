@@ -11,10 +11,17 @@ const useStyles = makeStyles((theme) => ({
         display: "grid",
         gridTemplateColumns: "50% 50%",
         [theme.breakpoints.down('sm')]: {
-            height: "100vh",
+            height: "fit-content",
             width: "100vw",
             display: "flex",
             flexDirection: "column",
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            width: "100vw",
+            display: "flex",
+            flexDirection: "column",
+            height: "fit-content",
+
         },
     },
 

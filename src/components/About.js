@@ -10,13 +10,22 @@ const useStyles = makeStyles((theme) => ({
         display: "grid",
         gridTemplateColumns: "50% 50%",
         [theme.breakpoints.down('sm')]: {
-            height: "60vh",
+            height: "fit-content",
             width: "100vw",
             display: "flex",
             flexDirection: "column",
-        },
-    },
 
+        },
+
+        [theme.breakpoints.between('sm', 'md')]: {
+            width: "100vw",
+            display: "flex",
+            flexDirection: "column",
+            height: "fit-content",
+
+        },
+
+    },
     innerContainerRigth: {
         display: "flex",
         justifyContect: "center",
@@ -63,7 +72,7 @@ function About() {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
+        <div className={classes.root} id="about">
             <div className={classes.innerContainerRigth}>
                 <img src={profilePicture} alt="Profile" className={classes.image} />
 

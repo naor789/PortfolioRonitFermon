@@ -19,6 +19,17 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down('sm')]: {
             width: "100vw",
             flexDirection: "column",
+            height: "fit-content",
+
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "fit-content",
+            margin: "auto",
+
         },
     },
 

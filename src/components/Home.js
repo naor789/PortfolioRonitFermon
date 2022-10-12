@@ -8,7 +8,12 @@ const useStyles = makeStyles((theme) => ({
         height: "100vh",
         position: "relative",
         [theme.breakpoints.down('sm')]: {
-            height: "23vh",
+            height: "40vh",
+            width: "100vw",
+
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            height: "60vh",
             width: "100vw",
 
         },
@@ -16,24 +21,24 @@ const useStyles = makeStyles((theme) => ({
     headerWrapper: {
         position: "absolute",
         top: "20%",
-        left: "50%",
+        left: "40%",
         [theme.breakpoints.down('sm')]: {
             top: "10%",
-            left: "60%",
+            // left: "30%",
         },
     },
     title: {
         fontSize: 50,
         fontWeight: "bold",
         [theme.breakpoints.down('sm')]: {
-            fontSize: 20,
+            fontSize: 38,
         },
     },
     subtitle: {
         fontSize: 30,
 
         [theme.breakpoints.down('sm')]: {
-            fontSize: 10,
+            fontSize: 23,
         },
 
     },
@@ -42,12 +47,21 @@ const useStyles = makeStyles((theme) => ({
         height: "100%",
         objectFit: "cover",
         [theme.breakpoints.down('sm')]: {
-            objectFit: "contain",
+            objectFit: "cover",
             position: "absolute",
             top: 0,
             left: 0,
             right: 0,
             zIndex: -1
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            objectFit: "cover",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            zIndex: -1
+
         },
     },
 }));

@@ -16,8 +16,13 @@ const useStyles = makeStyles((theme) => ({
         width: "100%",
         height: "80vh",
         [theme.breakpoints.down('sm')]: {
-            height: "30vh",
-            width: "85vw",
+            height: "fit-content",
+            width: "100%",
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            height: "fit-content",
+            width: "100%",
+
         },
     },
     imageList: {
@@ -31,8 +36,13 @@ const useStyles = makeStyles((theme) => ({
         height: 1000,
         objectFit: "contain",
         [theme.breakpoints.down('sm')]: {
-            height: "100%",
-            width: "80vw",
+            height: "fit-content",
+            width: "100%",
+        },
+        [theme.breakpoints.between('sm', 'md')]: {
+            height: "fit-content",
+            width: "90%",
+
         },
     },
     backgroundStyle: {
@@ -45,7 +55,26 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down('sm')]: {
             display: "none"
         },
-    }
+    },
+    backIcon: {
+        [theme.breakpoints.down('sm')]: {
+            position: "absolute",
+            left: 20,
+            top: "50%",
+            fontSize: 60
+        },
+
+
+    },
+    rightIcon: {
+        [theme.breakpoints.down('sm')]: {
+            position: "absolute",
+            right: 20,
+            top: "50%",
+            fontSize: 60
+        },
+
+    },
 }));
 
 
@@ -93,13 +122,13 @@ export default function MoreProjects() {
 
 
     return (
-        <div className={classes.root}>
+        <div className={classes.root} id="moreprojects">
             <div className={classes.backgroundStyle} >
 
             </div>
-            <ArrowBackIosIcon onClick={handleGoBack} fontSize={"large"} />
+            <ArrowBackIosIcon onClick={handleGoBack} fontSize={"large"} className={classes.backIcon} />
             <img src={itemData[imageIndex].img} className={classes.img} alt={itemData[imageIndex].title} />
-            <ArrowForwardIosIcon onClick={handleGoForward} fontSize={"large"} />
+            <ArrowForwardIosIcon onClick={handleGoForward} fontSize={"large"} className={classes.rightIcon} />
         </div>
     );
 }
