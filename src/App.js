@@ -11,7 +11,6 @@ import Project2Content2 from './components/Project2Content2';
 import Project3 from './components/Project3';
 import Project4 from './components/Project4';
 import MoreProjects from './components/MoreProjects';
-import Contact from './components/Contact';
 import { Fab } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -84,11 +83,6 @@ function App() {
       title: "More Projects",
       anchor: "#moreprojects"
     },
-    {
-      id: Math.random(),
-      title: "Contact",
-      anchor: "#contact"
-    }
 
   ]
   const classes = useStyles();
@@ -145,7 +139,6 @@ function App() {
         <Project3 />
         <Project4 />
         <MoreProjects />
-        <Contact />
       </div>
     </>
   );
