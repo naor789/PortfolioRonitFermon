@@ -80,7 +80,7 @@ function About() {
             <div className={classes.innerContainerLeft}>
                 <div className={classes.text}>
 
-                    Hello! I’m Ronit, a product designer with background of science and creativity. I work with teams to define product vision, drive successful user experience-centered products to meet both users and business needs.                </div>
+                    Hello! I’m Ronit, a product designer with background in science and creativity. I work with teams to define product vision, drive successful user experience-centered products to meet both users and business needs.                </div>
 
             </div>
 
